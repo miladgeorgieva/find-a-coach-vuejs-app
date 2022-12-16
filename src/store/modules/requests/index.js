@@ -1,5 +1,6 @@
 import mutations from "./mutations";
 import actions from "./actions";
+import getters from "./getters";
 
 export default {
 	namespaced: true,
@@ -7,7 +8,8 @@ export default {
 		return {
 			requests: [],
 		};
-    },
-    mutations,
-    actions
+	},
+	mutations,
+	actions,
+	getters,
 };
