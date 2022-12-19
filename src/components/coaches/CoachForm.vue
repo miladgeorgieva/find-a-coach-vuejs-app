@@ -125,7 +125,6 @@ export default {
 				this.formIsValid = false;
 			}
 			if (this.rate.val === null || this.rate.val < 0) {
-				console.log("rate is invalid");
 				this.rate.isValid = false;
 				this.formIsValid = false;
 			}
